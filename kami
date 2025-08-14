@@ -119,7 +119,7 @@ TextButton.MouseButton1Click:Connect(function()
         wait(1)
         ScreenGui:Destroy()
         -- 已替换为指定脚本
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/zezenb666/zeohio/4aa7cb5dcf98d87b1a63e2801e30cc4edd619685/zeohio"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zezenb666/zeohio/a6a89c8fdbe5d45e3a1b4596658c65a5c71dab3f/zeohio"))()
         executeScript()
     else
         attempts = attempts + 1
